@@ -1,0 +1,14 @@
+{
+	"temp_external": 10,
+	"temp_indoor": 13,
+	"temp_desired": 20,
+	"mode": "SCHEDULE",
+	"status": "ON",
+	"schedule": {
+		"name": "findes",
+		"start": "2007-11-03T13:18:05",
+		"end": "2007-11-03T13:19:05",
+		"temp_desired": 23,
+		"repeat": [ 0, 1, 2, 3, 4, 5, 6 ]
+	}
+}

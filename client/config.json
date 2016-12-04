@@ -1,0 +1,40 @@
+{
+	"node_env": "production",
+	"port": 8000,
+	"apikey": "pass",
+	"board": {
+		"temp": {
+			"pin": 0 
+		},
+		"display": {},
+		"relay": {
+			"pin": 4
+		},
+		"button": {
+			"pin": 8,
+			"refresh_ms": 1000
+		},
+		"angle": {
+			"pin": 1,
+			"refresh_ms": 200,
+			"min": 10,
+			"max": 40
+		}
+	},
+	"api": {
+		"weather": {
+			"forecast": {
+				"service": "darksky",
+				"key": "YOUR-DARKSKY-API-KEY",
+				"units": "celcius",
+				"cache": true,
+				"ttl": {
+					"minutes": 60,
+					"seconds": 0
+				}
+			},
+  			"coords": [40.1, -3.52]
+		}
+	},
+	"refresh_ms": 30000
+}

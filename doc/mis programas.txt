@@ -1,0 +1,42 @@
+{
+	"name": "lab morning",
+	"start": "2007-11-03T06:30:00",
+	"end": "2007-11-03T08:30:00",
+	"temp_desired": 23,
+	"repeat": [ 1, 2, 3, 4 ]
+}
+
+{
+	"name": "fri morning",
+	"start": "2007-11-03T05:30:00",
+	"end": "2007-11-03T08:30:00",
+	"temp_desired": 23,
+	"repeat": [ 5 ]
+}
+
+{
+	"name": "lmx evening",
+	"start": "2007-11-03T17:30:00",
+	"end": "2007-11-03T23:59:00",
+	"temp_desired": 23,
+	"repeat": [ 1,2,3 ]
+}
+
+{
+	"name": "jv evening",
+	"start": "2007-11-03T14:30:00",
+	"end": "2007-11-03T23:59:00",
+	"temp_desired": 23,
+	"repeat": [ 4,5 ]
+}
+
+{
+	"name": "weekend :)",
+	"start": "2007-11-03T9:30:00",
+	"end": "2007-11-03T23:59:00",
+	"temp_desired": 23,
+	"repeat": [ 0,6 ]
+}
+
+
+# date -s "2 OCT 2006 18:00:00"

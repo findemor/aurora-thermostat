@@ -1,0 +1,24 @@
+{
+  "name": "aurora",
+  "version": "0.0.1",
+  "description": "Controlador de temperatura para el hogar con placa Intel-Edison",
+  "main": "app.js",
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "start": "node app",
+  "author": "@findemor",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.13.0",
+    "forecast": "^0.3.0",
+    "nedb": "^1.8.0",
+    "unirest": "^0.4.2"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^3.5.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.0.2"
+  }
+}

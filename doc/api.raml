@@ -1,0 +1,74 @@
+#%RAML 0.8
+title: aurora api (intel edison)
+baseUri: /api/{version}
+version: 0
+traits:
+  - auth:
+      headers:
+        Authorization:
+          type: string
+          example: apikey
+/status:
+  get:
+    is: [ auth ]
+    description: obtiene el estado actual del controlador
+    responses:
+      200:
+        body:
+          application/json: 
+            example: !include api-ex/status_get.json
+  put:
+    is: [ auth ]
+    description: actualiza el estado actual del controlador (detiene, etc).
+    body:
+      application/json:
+        example: !include api-ex/status_put.json
+    responses:
+      204:
+        description: Aceptado. Se actualizará el estado del controlador.
+/schedules:
+  description: gestiona los programas del controlador. Las horas se establecen en horario UTC. 
+  get:
+    is: [ auth ]
+    description: obtiene todos los programas
+    responses:
+      200:
+        body:
+          application/json: 
+            example: !include api-ex/schedules_get.json
+  /{scheduleId}:
+    put:
+      is: [ auth ]
+      description: actualiza el programa especificado
+      body:
+        application/json:
+          example: !include api-ex/schedules_scheduleId_put.json
+      responses:
+        204:
+          description: Aceptado. Se actualizará el programa.
+    delete:
+      is: [ auth ]
+      description: elimina el programa especificado
+      responses:
+        204:
+          description: Aceptado. Se ha eliminado el programa.
+/config:
+  put:
+    is: [ auth ]
+    description: actualiza la configuración
+    body:
+      application/json:
+        example: !include api-ex/config_get.json
+    responses:
+      204:
+        description: Aceptado. Se actualizara.
+  get:
+    is: [ auth ]
+    description: obtiene la configuración actual
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include api-ex/config_get.json
+
+

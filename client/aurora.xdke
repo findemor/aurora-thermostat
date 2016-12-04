@@ -1,0 +1,230 @@
+{
+  "project": {
+    "currentBuildConfiguration": null,
+    "projectFiles": {},
+    "projectDirectories": {},
+    "projectSettingsVersion": "3.0.0"
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "app.js": {
+        "previousModTime": 1476229357336,
+        "modified": 1476229357336,
+        "seen": true,
+        "name": "app.js"
+      },
+      "aurora.xdk": {
+        "previousModTime": 1475169506863,
+        "modified": 1475169506863,
+        "seen": true,
+        "name": "aurora.xdk"
+      },
+      "aurora.xdke": {
+        "previousModTime": 1479646610308,
+        "modified": 1479646610308,
+        "seen": true,
+        "name": "aurora.xdke"
+      },
+      "config.json": {
+        "previousModTime": 1476302255454,
+        "modified": 1476302255454,
+        "seen": true,
+        "name": "config.json"
+      },
+      "package.json": {
+        "previousModTime": 1476299827381,
+        "modified": 1476299827381,
+        "seen": true,
+        "name": "package.json"
+      },
+      ".vscode/launch.json": {
+        "previousModTime": 1474715382563,
+        "modified": 1474715382563,
+        "seen": true,
+        "name": ".vscode/launch.json"
+      },
+      "bll/checker.js": {
+        "previousModTime": 1479644463353,
+        "modified": 1479644463353,
+        "seen": true,
+        "name": "bll/checker.js"
+      },
+      "bll/config.js": {
+        "previousModTime": 1474223283549,
+        "modified": 1474223283549,
+        "seen": true,
+        "name": "bll/config.js"
+      },
+      "bll/db.js": {
+        "previousModTime": 1474225256896,
+        "modified": 1474225256896,
+        "seen": true,
+        "name": "bll/db.js"
+      },
+      "bll/schedule.js": {
+        "previousModTime": 1474750179278,
+        "modified": 1474750179278,
+        "seen": true,
+        "name": "bll/schedule.js"
+      },
+      "bll/status.js": {
+        "previousModTime": 1476211840215,
+        "modified": 1476211840215,
+        "seen": true,
+        "name": "bll/status.js"
+      },
+      "controllers/api-actions.js": {
+        "previousModTime": 1474225322622,
+        "modified": 1474225322622,
+        "seen": true,
+        "name": "controllers/api-actions.js"
+      },
+      "controllers/api-auth.js": {
+        "previousModTime": 1472905135909,
+        "modified": 1472905135909,
+        "seen": true,
+        "name": "controllers/api-auth.js"
+      },
+      "dbs/.gitignore": {
+        "previousModTime": 1474224086019,
+        "modified": 1474224086019,
+        "seen": true,
+        "name": "dbs/.gitignore"
+      },
+      "external_modules/api/require_api.js": {
+        "previousModTime": 1473285502424,
+        "modified": 1473285502424,
+        "seen": true,
+        "name": "external_modules/api/require_api.js"
+      },
+      "external_modules/api/weather.js": {
+        "previousModTime": 1476312059575,
+        "modified": 1476312059575,
+        "seen": true,
+        "name": "external_modules/api/weather.js"
+      },
+      "external_modules/api/weather_mock.1.js": {
+        "previousModTime": 1475005488154,
+        "modified": 1475005488154,
+        "seen": true,
+        "name": "external_modules/api/weather_mock.1.js"
+      },
+      "external_modules/intel/display.js": {
+        "previousModTime": 1476522918692,
+        "modified": 1476522918692,
+        "seen": true,
+        "name": "external_modules/intel/display.js"
+      },
+      "external_modules/intel/display_mock.js": {
+        "previousModTime": 1474712364623,
+        "modified": 1474712364623,
+        "seen": true,
+        "name": "external_modules/intel/display_mock.js"
+      },
+      "external_modules/intel/led.js": {
+        "previousModTime": 1473285502425,
+        "modified": 1473285502425,
+        "seen": true,
+        "name": "external_modules/intel/led.js"
+      },
+      "external_modules/intel/led_mock.js": {
+        "previousModTime": 1473285502426,
+        "modified": 1473285502426,
+        "seen": true,
+        "name": "external_modules/intel/led_mock.js"
+      },
+      "external_modules/intel/relay.js": {
+        "previousModTime": 1475172455730,
+        "modified": 1475172455730,
+        "seen": true,
+        "name": "external_modules/intel/relay.js"
+      },
+      "external_modules/intel/relay_mock.js": {
+        "previousModTime": 1473285502426,
+        "modified": 1473285502426,
+        "seen": true,
+        "name": "external_modules/intel/relay_mock.js"
+      },
+      "external_modules/intel/require_intel.js": {
+        "previousModTime": 1474824388306,
+        "modified": 1474824388306,
+        "seen": true,
+        "name": "external_modules/intel/require_intel.js"
+      },
+      "external_modules/intel/temp.js": {
+        "previousModTime": 1479646788508,
+        "modified": 1479646788508,
+        "seen": true,
+        "name": "external_modules/intel/temp.js"
+      },
+      "external_modules/intel/temp_mock.js": {
+        "previousModTime": 1474712364623,
+        "modified": 1474712364623,
+        "seen": true,
+        "name": "external_modules/intel/temp_mock.js"
+      },
+      "libs/logger.js": {
+        "previousModTime": 1473285502427,
+        "modified": 1473285502427,
+        "seen": true,
+        "name": "libs/logger.js"
+      },
+      "routers/api.js": {
+        "previousModTime": 1474225782852,
+        "modified": 1474225782852,
+        "seen": true,
+        "name": "routers/api.js"
+      },
+      "test/mocks.js": {
+        "previousModTime": 1474824749482,
+        "modified": 1474824749482,
+        "seen": true,
+        "name": "test/mocks.js"
+      },
+      "test/test.js": {
+        "previousModTime": 1475175409403,
+        "modified": 1475175409403,
+        "seen": true,
+        "name": "test/test.js"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1475169506813,
+        "modified": 1475169506813,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      },
+      "external_modules/intel/button.js": {
+        "previousModTime": 1476220840863,
+        "modified": 1476220840863,
+        "seen": true,
+        "name": "external_modules/intel/button.js"
+      },
+      "external_modules/intel/button_mock.js": {
+        "previousModTime": 1476207763180,
+        "modified": 1476207763180,
+        "seen": true,
+        "name": "external_modules/intel/button_mock.js"
+      },
+      "external_modules/intel/angle.js": {
+        "previousModTime": 1476231254234,
+        "modified": 1476231254234,
+        "seen": true,
+        "name": "external_modules/intel/angle.js"
+      },
+      "external_modules/intel/angle_mock.js": {
+        "previousModTime": 1476229997363,
+        "modified": 1476229997363,
+        "seen": true,
+        "name": "external_modules/intel/angle_mock.js"
+      }
+    },
+    "boardFileStatus": {
+      "external_modules/intel/temp.js": {
+        "previousModTime": 1479646796175
+      }
+    }
+  }
+}

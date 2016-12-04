@@ -1,0 +1,11 @@
+{
+	"schedules": [
+		{
+			"_id": "schedule01",
+			"name": "findes",
+			"start": "2007-11-03T13:18:05",
+			"end": "2007-11-03T13:19:05",
+			"repeat": []
+		}
+	]
+}
