@@ -10,7 +10,7 @@ A whole article has been written, with many specs and advices, you can read it h
 
 ## Documentation
 
-Documentation is accesible at [doc/doc.html](doc/doc.html).
+Documentation is accesible at [doc/doc.html](https://rawgit.com/findemor/aurora-thermostat/master/doc/doc.html).
 You can see more examples at doc/api-ex.
 
 ## Configuration
